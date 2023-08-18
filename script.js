@@ -8,7 +8,7 @@ let gameReset = false; // Keeps track of game state
 const winMethods = [
   [1, 2, 3],
   [4, 5, 6],
-  [7, 8, 9], // Fixed the win method [7, 6, 9] to [7, 8, 9]
+  [7, 8, 9], // the win methods
   [1, 4, 7],
   [2, 5, 8],
   [3, 6, 9],
@@ -28,6 +28,7 @@ gameSquares.forEach((square) => {
         console.log('Player', currentPlayer1, 'wins');
         gameReset = true;
       }
+      //else -> add a tie condition for whenever games dont have winners
       if (currentPlayer1 === 'X') currentPlayer1 = 'O';
       else currentPlayer1 = 'X';
     }
@@ -36,6 +37,7 @@ gameSquares.forEach((square) => {
 
 function checkWin(player) {
   for (let i = 0; i < winMethods.length; i++) {
+    // iterates through my wunMethods array
     const method = winMethods[i];
     let winner = true;
     for (let j = 0; j < method.length; j++) {
