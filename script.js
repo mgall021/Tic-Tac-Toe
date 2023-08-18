@@ -4,6 +4,7 @@ const gameSquares = document.querySelectorAll('.column');
 // Initialize player 1
 let currentPlayer1 = 'X';
 let gameReset = false; // Keeps track of game state
+let totalMoves = 0; // will check how many moves have been placed andnwhen tt reaches 9, it will calla tie
 
 const winMethods = [
   [1, 2, 3],
@@ -23,9 +24,13 @@ gameSquares.forEach((square) => {
     if (square.innerHTML === '' && !gameReset) {
       square.innerHTML = currentPlayer1;
       square.classList.add(currentPlayer1);
+      totalMoves++;
 
       if (checkWin(currentPlayer1)) {
         console.log('Player', currentPlayer1, 'wins');
+        gameReset = true;
+      } else if (totalMoves === gameSquares.length) {
+        console.log("Darn, ya'll tie");
         gameReset = true;
       }
       //else -> add a tie condition for whenever games dont have winners
