@@ -27,9 +27,11 @@ gameSquares.forEach((square) => {
       totalMoves++;
 
       if (checkWin(currentPlayer1)) {
+        alert(`Player ${currentPlayer1} wins`);
         console.log('Player', currentPlayer1, 'wins');
         gameReset = true;
       } else if (totalMoves === gameSquares.length) {
+        alert("Darn, ya'll tie");
         console.log("Darn, ya'll tie");
         gameReset = true;
       }
