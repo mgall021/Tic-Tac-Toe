@@ -39,3 +39,9 @@
 .O {
   color: red;
 }
+
+#restart {
+  background-color: yellow;
+  margin: 40 px;
+  padding: 25px;
+}
