@@ -1,8 +1,20 @@
 // Select all elements with the 'column' class
 const gameSquares = document.querySelectorAll('.column');
+const playerXBtn = document.getElementById('playerX');
+const playerOBtn = document.getElementById('playerO');
+
+playerOBtn.addEventListener('click', () => {
+  currentPlayer1 = 'O';
+  alert(`Player 1 has selected 'O`);
+});
+
+playerXBtn.addEventListener('click', () => {
+  currentPlayer1 = 'X';
+  alert(`Player 1 has selected 'X`);
+});
 
 // Initialize player 1
-let currentPlayer1 = 'X';
+// let currentPlayer1 = 'X';
 let gameReset = false; // Keeps track of game state
 let totalMoves = 0; // will check how many moves have been placed andnwhen tt reaches 9, it will calla tie
 
