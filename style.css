@@ -70,8 +70,13 @@ body {
   justify-content: center;
   margin-top: 20px;
   flex-direction: row;
+  font-family: fantasy;
 }
 
 #playerOptions {
-  margin-left: 275px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 170px;
+  font-family: fantasy;
 }
