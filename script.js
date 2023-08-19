@@ -60,5 +60,19 @@ function checkWin(player) {
   }
   return false;
 }
+const resetButton = document.getElementById('resetButton');
+function resetGameBoard() {
+  gameSquares.forEach((square) => {
+    square.innerHTML = '';
+    square.classList.remove('X');
+    square.classList.remove('O');
+  });
 
-console.log(gameSquares);
+  currentPlayer1 = 'X';
+  gameReset = false;
+  totalMoves = 0;
+}
+
+resetButton.addEventListener('click', () => {
+  resetGameBoard();
+});
