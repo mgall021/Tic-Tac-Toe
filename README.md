@@ -47,6 +47,7 @@ OverView:
 -   Add a hihglighting function onto the 'X' and 'O' buttons, allowing them to highlight the next players turn.
 
 ## Bronze Psedocode
+
 - HTML:
     - Use HTML5 Boilerplate
     - link my CSS and JS files
@@ -73,6 +74,18 @@ OverView:
          - Create a function that lets the user know who;s turn is up next.
          - We do so by inacting the toggle technique. 
          - We must also print alerts to let the user know which icon they've selected. 
+
+- CSS
+   - Format my h1 which is my title
+   - Format my Grid using row and column elements
+     - to create the row, use flex to make sure the lines are centered horizontally
+     - to create the column, play with properties of width, height, padding, and borders to reach desired look. 
+   - Format my Reset Button
+   - Format my H2
+   - Format my two player options
+     - 'X' Button
+     - 'O' Button
+   - In body, change the background color of my page. 
 
 
    
