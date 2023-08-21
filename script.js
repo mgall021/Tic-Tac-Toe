@@ -110,3 +110,5 @@ function resetGameBoard() {
 resetButton.addEventListener('click', () => {
   resetGameBoard();
 });
+
+//cclg
