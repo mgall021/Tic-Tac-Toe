@@ -3,15 +3,36 @@ const gameSquares = document.querySelectorAll('.column');
 const playerXBtn = document.getElementById('playerX');
 const playerOBtn = document.getElementById('playerO');
 
+// playerOBtn.addEventListener('click', () => {
+//   currentPlayer1 = 'O';
+//   playerOBtn.classList.add('active');
+//   playerXBtn.classList.remove('active');
+//   alert(`Player 1 has selected 'O`);
+// });
+
+// playerXBtn.addEventListener('click', () => {
+//   currentPlayer1 = 'X';
+//   playerXBtn.classList.add('active');
+//   playerOBtn.classList.remove('active');
+//   alert(`Player 1 has selected 'X`);
+// });
+
 playerOBtn.addEventListener('click', () => {
   currentPlayer1 = 'O';
-  alert(`Player 1 has selected 'O`);
+  nextPlayersTurn();
+  alert(`Player 1 has selected 'O'`);
 });
 
 playerXBtn.addEventListener('click', () => {
   currentPlayer1 = 'X';
-  alert(`Player 1 has selected 'X`);
+  nextPlayersTurn();
+  alert(`Player 1 has selected 'X'`);
 });
+
+function nextPlayersTurn() {
+  playerXBtn.classList.toggle('active', currentPlayer1 === 'X');
+  playerOBtn.classList.toggle('active', currentPlayer1 === 'O');
+}
 
 // Initialize player 1
 // let currentPlayer1 = 'X';
@@ -50,6 +71,7 @@ gameSquares.forEach((square) => {
       //else -> add a tie condition for whenever games dont have winners
       if (currentPlayer1 === 'X') currentPlayer1 = 'O';
       else currentPlayer1 = 'X';
+      nextPlayersTurn();
     }
   });
 });

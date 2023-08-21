@@ -57,6 +57,7 @@ h1 {
 h2 {
   text-align: center;
   margin: 10px;
+  padding: 40px;
 }
 
 body {
@@ -77,6 +78,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 170px;
+  margin-right: 50px;
   font-family: fantasy;
+}
+
+#playerOptions button {
+  transition: background-color 0.1s ease-in-out;
+}
+
+#playerOptions button.active {
+  background-color: yellow;
 }
