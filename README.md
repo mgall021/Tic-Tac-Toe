@@ -56,20 +56,20 @@ OverView:
     - Create a button to Reset the Game 
     - Create an H2, use it to label what buttons the user can pick from. Referring to 'X' 7 'O' buttons.
     
--JavaScrpt:
+- JavaScrpt:
     - Define Vafiables
          - Define a player Variable
          - Define a variable that tracks whether game needs or gets Reset
          - Create a variable that keeps count of player/players moves
          - Define an array that contains all possible winning scenarios
          - Define Reset Button variable
-   - Create an event listener that fills each square that the user clicks on with an 'X' or 'O'
-   - Create a method that checks for Wins / Ties
+   -  Create an event listener that fills each square that the user clicks on with an 'X' or 'O'
+   -  Create a method that checks for Wins / Ties
          - In this function, We must check use our array to check if any of those possibilities have been met. 
          - Also, We must use this method to check for tie's. We do so by checking if all 9 squares have been filled with either an 'X' or 'O' icon. 
-   - Create an event listener for my Reset Button.
+   -  Create an event listener for my Reset Button.
          - In htis function, user must be able to clear the grid of all previous Icon's. We can do so by using the Remove technique.
-   - Create event listenrs for my 'X' & 'O' Buttons.
+   -  Create event listenrs for my 'X' & 'O' Buttons.
          - Create a function that lets the user know who;s turn is up next.
          - We do so by inacting the toggle technique. 
          - We must also print alerts to let the user know which icon they've selected. 
