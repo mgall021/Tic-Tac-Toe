@@ -87,5 +87,7 @@ OverView:
      - 'O' Button
    - In body, change the background color of my page. 
 
-
+- Win's
+  - I had lots of tought battles while formatting my code. One specific snippet of code that I'm very proud of is my CheckWin Method. 
+  - ![ CheckWin Method](https://media.git.generalassemb.ly/user/50083/files/fc6e999d-d4c0-4efb-a3e0-f041c1a3e97f)
    
