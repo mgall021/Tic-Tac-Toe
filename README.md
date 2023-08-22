@@ -89,5 +89,5 @@ OverView:
 
 - Win's
   - I had lots of tought battles while formatting my code. One specific snippet of code that I'm very proud of is my CheckWin Method. 
-  - ![ CheckWin Method](https://media.git.generalassemb.ly/user/50083/files/fc6e999d-d4c0-4efb-a3e0-f041c1a3e97f)
+  - ![ CheckWin Method](https://media.git.generalassemb.ly/user/50083/files/77a498e7-1073-4b31-985b-6e36d35ab4c6)
    
