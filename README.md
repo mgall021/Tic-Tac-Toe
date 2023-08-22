@@ -33,6 +33,7 @@ Tic Tac Toe is a classic game where two players take turns marking spaces on a 3
    - Notability Notes App : Allowed me to sketch out my wireframing ideas. 
 
 ## WireFraming
+![ Sketch of my WireFrame Idea](https://media.git.generalassemb.ly/user/50083/files/c96ffdaf-295d-413c-a501-3069a6487d10)
 
 ## MVP - Bronze 
 OverView:
