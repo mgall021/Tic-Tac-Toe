@@ -1,8 +1,10 @@
+/* Styling for rows */
 .row {
   display: flex;
   justify-content: center;
 }
 
+/* Styling for individual columns aka grid squares */
 .column {
   width: 125px;
   height: 0;
@@ -12,35 +14,41 @@
   align-items: left;
   justify-content: center;
   font-size: 50px;
-
-  /* cursor: pointer; */
 }
 
+/* Vertical line styling for grid squares */
 .vertical-line {
   border-right: 0.5px solid black;
 }
 
+/* Horizontal line styling for grid squares */
 .horizontal-line {
   border-bottom: 0.5px solid black;
 }
 
+/* Styling for main grid container */
 #grid {
   margin-top: 100px;
   text-align: center;
   font-size: 0;
 }
 
+/* Styling for rows in grid */
 #grid .row {
-  border-bottom: 0.1px;
+  border-bottom: 0.1px; /* Specifies border style */
 }
 
+/* Styling for 'X' player */
 .X {
   color: blue;
 }
+
+/* Styling for 'O' player */
 .O {
   color: red;
 }
 
+/* Styling for the reset button */
 #resetButton {
   background-color: yellow;
   margin: 20px;
@@ -49,22 +57,30 @@
   justify-content: center;
   font-family: fantasy;
 }
+
+/* Styling for main heading h1 */
 h1 {
   text-align: center;
   font-family: fantasy;
   font-size: 75px;
 }
+
+/* Styling for subheadings h2 */
 h2 {
   text-align: center;
   margin: 10px;
   padding: 40px;
 }
 
+/* Styling for the body */
 body {
   font-family: fantasy;
+  /* Background gradient */
   /* background: linear-gradient(135deg, #6a1b9a, #e1bee7, #b0bec5); */
   background: linear-gradient(135deg, #6a1b9a, #f5f5f5, #b0bec5);
 }
+
+/* Styling for the Container section */
 #Container {
   display: flex;
   align-items: center;
@@ -74,6 +90,7 @@ body {
   font-family: fantasy;
 }
 
+/* Styling for the player options section */
 #playerOptions {
   display: flex;
   align-items: center;
@@ -82,10 +99,9 @@ body {
   font-family: fantasy;
 }
 
-#playerOptions button {
-  transition: background-color 0.1s ease-in-out;
-}
-
+/* Styling for active player option button */
 #playerOptions button.active {
   background-color: yellow;
+
+  transition: background-color 0.1s ease-in-out;
 }
