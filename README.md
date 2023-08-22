@@ -3,6 +3,8 @@ This is a simple web-based Tic Tac Toe game built using HTML, CSS, and JavaScrip
 ## Game Overview
 Tic Tac Toe is a classic game where two players take turns marking spaces on a 3x3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.
 
+  ![Overview Game Image](https://media.git.generalassemb.ly/user/50083/files/e1b388de-c43c-4e6f-9d43-585b606d039a)
+
 ## User Stories
 As a user, I should be able to start a new tic tac toe game
 As a user, I should be able to click on a square to add X first and then O, and so on
@@ -87,7 +89,11 @@ OverView:
      - 'O' Button
    - In body, change the background color of my page. 
 
-- Win's
-  - I had lots of tought battles while formatting my code. One specific snippet of code that I'm very proud of is my CheckWin Method. 
+- ## Win's
+  - I had lots of tought battles while formatting my code. One specific snippet of code that I'm very proud of is my CheckWin Method. In this snippet, I was struggling with my nested for loop. It wasn't till in one of my Stand Up's lead by Suresh where he was helping a student figure out how to implement a grid table. He mentioned that each square is a cell with a certain ID. This is when I had a eureka moment and got the idea to have a variable called 'cell' and have that hold a new sub-array called method. This variable checks to see if the current square has an index[j], checking to see if any of my winMethods were valid.
   - ![ CheckWin Method](https://media.git.generalassemb.ly/user/50083/files/77a498e7-1073-4b31-985b-6e36d35ab4c6)
+  
+## Hurdles 
+ - In the code below, my biggest hurdle was figuring out how to alternate player turns. I tried having for loop's that counted so every even turn was player 1 and every odd turn was player 2. Yet, that got complicated fast. This hurdle took me my whole first 2 days working on this project to figure out. So after countless breaks and researching, I came across this stack overflow thread [StackOverFlow link](https://stackoverflow.com/questions/60527719/javascript-alternate-player-turns-and-changing-colours). This is how i figured out how to solve my my biggest hurdle. 
+ ![Hurdle Image](https://media.git.generalassemb.ly/user/50083/files/a8dbcdef-4e7b-4941-a7e3-51c854e9c63c)
    
