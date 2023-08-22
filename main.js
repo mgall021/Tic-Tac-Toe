@@ -146,12 +146,10 @@ function resetGameBoard() {
   currentPlayer1 = 'X'; // tried to reset to nextplayersTurn but i keep getting undefined. --> One of the thing's I'd do differently
   // I set the game reset state back to false so we can continue to play a new round
   gameReset = false;
-  //  resets the counyter for total moves as well, gives the user a clean start
+  //  resets the counter for total moves as well, gives the user a clean start
   totalMoves = 0;
 }
 // event listener so my reset Button knows when to run the method resetGameBoard
 resetButton.addEventListener('click', () => {
   resetGameBoard(); // calls on function to invoke
 });
-
-// Finished Product
