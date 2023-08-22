@@ -3,7 +3,7 @@ This is a simple web-based Tic Tac Toe game built using HTML, CSS, and JavaScrip
 ## Game Overview
 Tic Tac Toe is a classic game where two players take turns marking spaces on a 3x3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.
 
-  ![Overview Game Image](https://media.git.generalassemb.ly/user/50083/files/e1b388de-c43c-4e6f-9d43-585b606d039a)
+  ![Overview Game Image](https://media.git.generalassemb.ly/user/50083/files/92964a51-ad77-4f70-8876-cf47843ffa9f)
 
 ## User Stories
   - As a user, I should be able to start a new tic tac toe game
