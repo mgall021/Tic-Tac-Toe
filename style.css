@@ -97,6 +97,7 @@ body {
   justify-content: center;
   margin-right: 50px;
   font-family: fantasy;
+  height: 60px;
 }
 
 /* Styling for active player option button */
