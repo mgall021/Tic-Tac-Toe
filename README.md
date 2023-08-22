@@ -35,6 +35,9 @@ Tic Tac Toe is a classic game where two players take turns marking spaces on a 3
 ## WireFraming
 ![ Sketch of my WireFrame Idea](https://media.git.generalassemb.ly/user/50083/files/92964a51-ad77-4f70-8876-cf47843ffa9f)
 
+## Brain Map 
+![ Brain Map Used to sketch an idea for the project](https://media.git.generalassemb.ly/user/50083/files/4d020032-f38b-45df-a190-539052fd00e3)
+
 ## MVP - Bronze 
 OverView:
 -   Create a Repository. 
@@ -97,4 +100,10 @@ OverView:
 ## Hurdles 
  - In the code below, my biggest hurdle was figuring out how to alternate player turns. I tried having for loop's that counted so every even turn was player 1 and every odd turn was player 2. Yet, that got complicated fast. This hurdle took me my whole first 2 days working on this project to figure out. So after countless breaks and researching, I came across this stack overflow thread [StackOverFlow link](https://stackoverflow.com/questions/60527719/javascript-alternate-player-turns-and-changing-colours). This is how i figured out how to solve my my biggest hurdle. 
  ![Hurdle Image](https://media.git.generalassemb.ly/user/50083/files/a8dbcdef-4e7b-4941-a7e3-51c854e9c63c)
+ 
+ ## Acknowledgements
+  - I wish to express my gratitude to all of my instructors, with a particular acknowledgment for Suresh Sigera. His invaluable assistance in consolidating my ideas throughout the week during our stand-up meetings has been immensely beneficial. 
+  -  Additionally, I would like to thank Interapt for the opportunity to take part in this Software Engineering Immersive.
+  - I would like to extend my sincere gratitude to Kerry Basham for our regular meetings, during which she graciously provided me with the opportunity to openly express my thoughts and sentiments regarding the project.
+   
    
