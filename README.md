@@ -105,5 +105,10 @@ OverView:
   - I wish to express my gratitude to all of my instructors, with a particular acknowledgment for Suresh Sigera. His invaluable assistance in consolidating my ideas throughout the week during our stand-up meetings has been immensely beneficial. 
   -  Additionally, I would like to thank Interapt for the opportunity to take part in this Software Engineering Immersive.
   - I would like to extend my sincere gratitude to Kerry Basham for our regular meetings, during which she graciously provided me with the opportunity to openly express my thoughts and sentiments regarding the project.
+
+## Future Goals:
+- Game Score
+- AI Integration
+- Sounds
    
    
