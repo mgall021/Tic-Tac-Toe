@@ -153,3 +153,5 @@ function resetGameBoard() {
 resetButton.addEventListener('click', () => {
   resetGameBoard(); // calls on function to invoke
 });
+
+// Finished Product
